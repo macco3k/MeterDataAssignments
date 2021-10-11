@@ -59,8 +59,9 @@ namespace Exercise
         }
 
         /// <summary>
-        /// Returns the max demand from the input meter data for the given year and month.
+        /// Returns the max demand (peak consumption) from the input meter data for the given year and month.
         /// HINT: use the read frequency from the function above
+        /// HINT: peak consumption is in kW
         /// </summary>
         public static double? MaxDemandInYearAndMonth(List<MeterData> meterData, int year, int month)
         {
