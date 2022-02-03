@@ -2,7 +2,7 @@
 This is a small C# project that contains functions with empty logic: implement the logic in the functions and write _unit tests_ for the various use cases. Add comments whenever you deem it necessary, either in the code or via a separate readme file.
 
 ## Input data
-In the ZIP file there are two CSV files, each contains meter data for an electricity meter. Please note that
+In the `src/MeterData` folder there are two CSV files, each containing meter data for an electricity meter. Please note that
 * the values are _consumption values_, i.e. the amount of electricity used during the 15-minute interval starting at the timestamp.
 * the values are assumed to be expressed in kWh
 * the timestamps are in local time including the UTC offset (according to the ISO8601 date notation). 
