@@ -7,7 +7,7 @@ In the ZIP file there are two CSV files, each contains meter data for an electri
 * the values are assumed to be expressed in kWh
 * the timestamps are in local time including the UTC offset (according to the ISO8601 date notation). 
 
-## Goal 
+## Requirements
 Please create a program in C# that:
 * reads the data from the CSV files
 * calculates the following information (see also details below):
@@ -22,7 +22,9 @@ Please create a program in C# that:
 * the files may contain some data outside 2020, please exclude those values from your results
 * since this is actual data, there may be gaps in the data. You can assume there was no consumption in those intervals
 * please make sure to understand the difference between kW and kWh (ask Google!)
-* we will look at clean and good readable coding, correct use of objects and/or functions, and the use of documentation/comments 
+* we will look at clean and good readable coding, correct use of objects and/or functions, and the use of documentation/comments
+* a minimal NUnit test project is already set up for you. However, if you are more comfortable with other test frameworks, feel free to add your own. For an intro to NUnit, see https://docs.nunit.org/
+* the provided code is just a template. It is up to you to shape it so that the requirements are met.
 
 Here is an example of the structure of the output (note that formatting is not the most important thing here, a plain-text table to the console is perfectly fine):
 

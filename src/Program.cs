@@ -49,19 +49,9 @@ namespace Exercise
         }
 
         /// <summary>
-        /// Returns the read frequency between the data points if there is enough information.
-        /// i.e. the read frequency is in minutes between each data point
-        /// </summary>
-        public static int? DetermineReadFrequency(List<MeterData> meterData)
-        {
-            // TODO
-            return null;
-        }
-
-        /// <summary>
-        /// Returns the max demand (peak consumption) from the input meter data for the given year and month.
-        /// HINT: use the read frequency from the function above
-        /// HINT: peak consumption is in kW
+        /// Returns the max demand from the input meter data for the given year and month.
+        /// HINT: use the read frequency of the given datapoints
+        /// HINT: peak demand is in kW, while consumption is in kWh
         /// </summary>
         public static double? MaxDemandInYearAndMonth(List<MeterData> meterData, int year, int month)
         {
@@ -70,7 +60,7 @@ namespace Exercise
         }
     }
 
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
